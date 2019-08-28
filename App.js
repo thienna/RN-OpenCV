@@ -24,7 +24,10 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
+import ScanImage from './src/ScanImage';
+
 const App = () => {
+  ScanImage.show('LOL', ScanImage.SHORT);
   return (
     <Fragment>
       <StatusBar barStyle="dark-content" />
