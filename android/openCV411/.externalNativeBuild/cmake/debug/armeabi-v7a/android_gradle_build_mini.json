@@ -1,0 +1,16 @@
+{
+  "buildFiles": [
+    "/Users/thienna/Code/scanBillApp/android/openCV411/libcxx_helper/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/Users/thienna/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/thienna/Code/scanBillApp/android/openCV411/.externalNativeBuild/cmake/debug/armeabi-v7a --target clean"
+  ],
+  "libraries": {
+    "opencv_jni_shared-Debug-armeabi-v7a": {
+      "artifactName": "opencv_jni_shared",
+      "buildCommand": "/Users/thienna/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/thienna/Code/scanBillApp/android/openCV411/.externalNativeBuild/cmake/debug/armeabi-v7a --target opencv_jni_shared",
+      "abi": "armeabi-v7a",
+      "output": "/Users/thienna/Code/scanBillApp/android/openCV411/.externalNativeBuild/cmake/debug/armeabi-v7a/libopencv_jni_shared.a"
+    }
+  }
+}
