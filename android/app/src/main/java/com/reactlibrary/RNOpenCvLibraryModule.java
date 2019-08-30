@@ -18,6 +18,12 @@ import android.util.Base64;
 
 public class RNOpenCvLibraryModule extends ReactContextBaseJavaModule {
 
+    static {
+        System.loadLibrary("open-cv-test");
+    }
+
+    public native String stringFromJNI();
+
     private final ReactApplicationContext reactContext;
 
     public RNOpenCvLibraryModule(ReactApplicationContext reactContext) {
@@ -33,6 +39,8 @@ public class RNOpenCvLibraryModule extends ReactContextBaseJavaModule {
     @ReactMethod
     public void checkForBlurryImage(String imageAsBase64, Callback errorCallback, Callback successCallback) {
         try {
+            byte[] decodedString = Base64.decode(imageAsBase64, Base64.DEFAULT);
+            Bitmap decodedByte = BitmapFactory.decodeByteArray(decodedString, 0, decodedString.length);
 //            BitmapFactory.Options options = new BitmapFactory.Options();
 //            options.inDither = true;
 //            options.inPreferredConfig = Bitmap.Config.ARGB_8888;
@@ -74,7 +82,7 @@ public class RNOpenCvLibraryModule extends ReactContextBaseJavaModule {
 //                System.out.println("is blur image");
 //            }
 
-            successCallback.invoke(imageAsBase64);
+            successCallback.invoke(stringFromJNI());
         } catch (Exception e) {
             errorCallback.invoke(e.getMessage());
         }

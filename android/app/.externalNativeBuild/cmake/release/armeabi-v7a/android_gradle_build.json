@@ -1,0 +1,41 @@
+{
+  "stringTable": {
+    "0": "/Users/thienna/Code/scanBillApp/android/app/.externalNativeBuild/cmake/release/armeabi-v7a",
+    "1": "--target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/thienna/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/thienna/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -Oz -DNDEBUG -fPIC"
+  },
+  "buildFiles": [
+    "/Users/thienna/Library/Android/sdk/ndk-bundle/build/cmake/android.toolchain.cmake",
+    "/Users/thienna/Code/scanBillApp/android/app/src/main/cpp/CMakeLists.txt",
+    "/Users/thienna/Library/Android/sdk/ndk-bundle/build/cmake/platforms.cmake"
+  ],
+  "cleanCommands": [
+    "/Users/thienna/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build \"/Users/thienna/Code/scanBillApp/android/app/.externalNativeBuild/cmake/release/armeabi-v7a\" --target clean"
+  ],
+  "libraries": {
+    "SHARED-Release-armeabi-v7a": {
+      "buildCommand": "/Users/thienna/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build \"/Users/thienna/Code/scanBillApp/android/app/.externalNativeBuild/cmake/release/armeabi-v7a\" --target SHARED",
+      "buildType": "release",
+      "toolchain": "2751480962",
+      "abi": "armeabi-v7a",
+      "artifactName": "SHARED",
+      "files": [
+        {
+          "src": "/Users/thienna/Code/scanBillApp/android/app/src/main/cpp/open-cv-test.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "/Users/thienna/Code/scanBillApp/android/app/.externalNativeBuild/cmake/release/armeabi-v7a/libSHARED.a"
+    }
+  },
+  "toolchains": {
+    "2751480962": {
+      "cppCompilerExecutable": "/Users/thienna/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

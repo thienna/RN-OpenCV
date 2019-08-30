@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/Users/thienna/Code/scanBillApp/android/app/.externalNativeBuild/cmake/release/arm64-v8a",
+  "command": "/Users/thienna/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/thienna/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/thienna/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot    -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -O2 -DNDEBUG  -fPIC   -o CMakeFiles/SHARED.dir/open-cv-test.cpp.o -c /Users/thienna/Code/scanBillApp/android/app/src/main/cpp/open-cv-test.cpp",
+  "file": "/Users/thienna/Code/scanBillApp/android/app/src/main/cpp/open-cv-test.cpp"
+}
+]

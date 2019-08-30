@@ -1,0 +1,18 @@
+{
+  "buildFiles": [
+    "/Users/thienna/Library/Android/sdk/ndk-bundle/build/cmake/android.toolchain.cmake",
+    "/Users/thienna/Code/scanBillApp/android/app/src/main/cpp/CMakeLists.txt",
+    "/Users/thienna/Library/Android/sdk/ndk-bundle/build/cmake/platforms.cmake"
+  ],
+  "cleanCommands": [
+    "/Users/thienna/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build \"/Users/thienna/Code/scanBillApp/android/app/.externalNativeBuild/cmake/debug/x86\" --target clean"
+  ],
+  "libraries": {
+    "open-cv-test-Debug-x86": {
+      "artifactName": "open-cv-test",
+      "buildCommand": "/Users/thienna/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build \"/Users/thienna/Code/scanBillApp/android/app/.externalNativeBuild/cmake/debug/x86\" --target open-cv-test",
+      "abi": "x86",
+      "output": "/Users/thienna/Code/scanBillApp/android/app/build/intermediates/cmake/debug/obj/x86/libopen-cv-test.so"
+    }
+  }
+}

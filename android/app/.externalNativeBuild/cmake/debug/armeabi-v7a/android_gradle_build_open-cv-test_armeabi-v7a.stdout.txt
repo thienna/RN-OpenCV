@@ -1,0 +1,2 @@
+[1/2] Building CXX object CMakeFiles/open-cv-test.dir/open-cv-test.cpp.o
+[2/2] Linking CXX shared library /Users/thienna/Code/scanBillApp/android/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libopen-cv-test.so

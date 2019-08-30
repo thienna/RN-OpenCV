@@ -1,0 +1,3 @@
+# ninja log v5
+0	352	1567163944	CMakeFiles/open-cv-test.dir/open-cv-test.cpp.o	9324394c94d08ba9
+352	431	1567163944	/Users/thienna/Code/scanBillApp/android/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libopen-cv-test.so	87060440de010ac2
